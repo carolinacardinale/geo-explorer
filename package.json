@@ -1,0 +1,29 @@
+{
+  "name": "geo-explorer",
+  "version": "1.0.0",
+  "description": "Projeto educacional para explorar trilhas de aprendizagem, gerar desafios, certificados fictícios e expor recursos via MCP.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand",
+    "mcp": "node mcp/server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "educacao",
+    "javascript",
+    "nodejs",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/server": "latest",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "latest"
+  }
+}
