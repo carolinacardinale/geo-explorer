@@ -1,0 +1,90 @@
+{
+  "javascript": {
+    "nome": "JavaScript",
+    "nivel": "iniciante",
+    "cargaHoraria": 20,
+    "modulos": [
+      "Variáveis e tipos de dados",
+      "Operadores",
+      "Estruturas condicionais",
+      "Laços de repetição",
+      "Funções"
+    ],
+    "desafios": {
+      "iniciante": [
+        "Crie uma função chamada calcularMedia que receba três notas e retorne a média aritmética.",
+        "Crie um programa que informe se um número é par ou ímpar."
+      ],
+      "intermediario": [
+        "Crie uma função que filtre produtos por preço máximo.",
+        "Crie um sistema simples de cadastro utilizando arrays de objetos."
+      ]
+    }
+  },
+  "python": {
+    "nome": "Python",
+    "nivel": "iniciante",
+    "cargaHoraria": 20,
+    "modulos": [
+      "Variáveis e tipos de dados",
+      "Condicionais",
+      "Laços de repetição",
+      "Listas e dicionários",
+      "Funções"
+    ],
+    "desafios": {
+      "iniciante": [
+        "Crie um programa que calcule a média de três notas.",
+        "Crie um programa que conte quantas vogais existem em uma palavra."
+      ],
+      "intermediario": [
+        "Crie um programa que leia uma lista de números e retorne apenas os pares.",
+        "Crie uma função que organize uma lista de alunos por nota."
+      ]
+    }
+  },
+  "html-css": {
+    "nome": "HTML e CSS",
+    "nivel": "iniciante",
+    "cargaHoraria": 16,
+    "modulos": [
+      "Estrutura básica do HTML",
+      "Tags semânticas",
+      "Seletores CSS",
+      "Box Model",
+      "Flexbox"
+    ],
+    "desafios": {
+      "iniciante": [
+        "Crie uma página de perfil contendo título, imagem, biografia e links.",
+        "Crie um cartão de produto utilizando HTML e CSS."
+      ],
+      "intermediario": [
+        "Crie uma landing page responsiva utilizando Flexbox.",
+        "Crie um layout com cabeçalho, menu lateral, conteúdo e rodapé."
+      ]
+    }
+  },
+  "react": {
+    "nome": "React",
+    "nivel": "intermediario",
+    "cargaHoraria": 24,
+    "modulos": [
+      "Componentes",
+      "Props",
+      "Estado",
+      "Eventos",
+      "Hooks"
+    ],
+    "desafios": {
+      "iniciante": [
+        "Crie um componente que receba nome e profissão por props.",
+        "Crie um contador com botões para incrementar e decrementar."
+      ],
+      "intermediario": [
+        "Crie uma lista de tarefas utilizando useState.",
+        "Crie uma aplicação que consuma uma API e apresente os resultados em cards."
+      ]
+    }
+  }
+}
